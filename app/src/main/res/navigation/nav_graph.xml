@@ -19,4 +19,19 @@
         android:name="com.example.navigationcomponent_gr1.fragments.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.navigationcomponent_gr1.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.navigationcomponent_gr1.fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.navigationcomponent_gr1.fragments.PostFragment"
+        android:label="Post"
+        tools:layout="@layout/fragment_post" />
 </navigation>
