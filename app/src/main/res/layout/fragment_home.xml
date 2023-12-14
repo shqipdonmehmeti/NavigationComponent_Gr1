@@ -20,4 +20,20 @@
         android:text="Go to profile"
         />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnShowSnackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show snackbar"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnShowAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show alert dialog"
+        />
+
+
+
 </LinearLayout>
